@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Nimes</title>
+  </head>
+  <body>
+    <header class="header__wrapper">
+      <nav class="menu">
+        <div class="nav__burger">
+          <span></span>
+        </div>
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Woman</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Man</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">New</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="logo">Nîmes</a>
+      <div class="menu__actions">
+        <a href="#" class="menu__search"></a>
+        <a href="#" class="menu__basket"></a>
+      </div>
+    </header>
+    <main>
+      <section class="productCard">
+        <div class="productCard__slider">
+          <button class="arrow arrow-left"></button>
+          <div class="productCard__photo">
+            <img
+              class="card__image productCard__photo-img big"
+              src="assets/product-image-1.png"
+              alt="Large Photo"
+            />
+            <img
+              class="card__image productCard__photo-img"
+              src="assets/product-image-2.png"
+              alt="Small Photo 1"
+            />
+            <img
+              class="card__image productCard__photo-img"
+              src="assets/product-image-3.png"
+              alt="Small Photo 2"
+            />
+            <img
+              class="card__image productCard__photo-img"
+              src="assets/product-image-4.png"
+              alt="Small Photo 3"
+            />
+            <img
+              class="card__image productCard__photo-img"
+              src="assets/product-image-5.png"
+              alt="Small Photo 4"
+            />
+          </div>
+          <button class="arrow arrow-right"></button>
+        </div>
+        <div class="productCard__info">
+          <h1 class="productCard__info-title">Overalls</h1>
+          <p class="productCard__info-text">
+            Overalls in washed organic cotton denim. Collar, button fly, and
+            adjustable belt at waist. Chest pockets with flap. Long, gently
+            flared sleeves and straight legs with front <span>pockets </span>and
+            back pockets.
+          </p>
+          <div class="productCard__color">
+            <div class="productCard__choiseTitle">Color</div>
+            <div class="color-options">
+              <input
+                class="color-options-round"
+                type="radio"
+                name="color"
+                value="color-1"
+                checked
+              />
+              <input
+                class="color-options-round"
+                type="radio"
+                name="color"
+                value="color-2"
+              />
+              <input
+                class="color-options-round"
+                type="radio"
+                name="color"
+                value="color-3"
+              />
+            </div>
+          </div>
+          <div class="productCard__size">
+            <div class="productCard__choiseTitle">Size</div>
+            <div class="size-options">
+              <input
+                class="size-checkbox"
+                type="radio"
+                name="size"
+                value="xs"
+                id="xs"
+              />
+              <label class="size-name" for="xs">XS</label>
+              <input
+                class="size-checkbox"
+                type="radio"
+                name="size"
+                value="s"
+                id="s"
+                checked
+              />
+              <label class="size-name size-s" for="s">S</label>
+              <input
+                class="size-checkbox"
+                type="radio"
+                name="size"
+                value="m"
+                id="m"
+              />
+              <label class="size-name" for="m">M</label>
+              <input
+                class="size-checkbox"
+                type="radio"
+                name="size"
+                value="l"
+                id="l"
+              />
+              <label class="size-name size-xl" for="l">L</label>
+              <input
+                class="size-checkbox"
+                type="radio"
+                name="size"
+                value="xl"
+                id="xl"
+              />
+              <label class="size-name size-xl" for="xl">XL</label>
+            </div>
+          </div>
+          <div class="productCard__price">$ 160</div>
+          <button class="productCard__btn">Add to cart</button>
+        </div>
+      </section>
+      <section class="more">
+        <div class="more__title">You may also like</div>
+        <button class="more__link" type="button">View all</button>
+        <div class="more__photo">
+          <a href="#" class="more__photoCard">
+            <img
+              class="more__photoCard-img"
+              src="assets/similar-image-1.png"
+              alt=""
+            />
+            <div class="more__photoCard-text">Overalls</div>
+            <div class="more__photoCard-price">$ 140</div>
+          </a>
+          <a href="#" class="more__photoCard">
+            <img
+              class="more__photoCard-img"
+              src="assets/similar-image-2.png"
+              alt=""
+            />
+            <div class="more__photoCard-text">Overalls</div>
+            <div class="more__photoCard-price">$ 110</div>
+          </a>
+          <a href="#" class="more__photoCard">
+            <img
+              class="more__photoCard-img"
+              src="assets/similar-image-3.png"
+              alt=""
+            />
+            <div class="more__photoCard-text">Jacket</div>
+            <div class="more__photoCard-price">$ 70</div>
+          </a>
+          <a href="#" class="more__photoCard">
+            <img
+              class="more__photoCard-img"
+              src="assets/similar-image-4.png"
+              alt=""
+            />
+            <div class="more__photoCard-text">Jacket</div>
+            <div class="more__photoCard-price">$ 60</div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__nav-list">
+        <li class="footer__nav-item footer__logo">
+          <a class="footer__nav-title" href="#">Nîmes</a>
+        </li>
+        <li class="footer__nav-item footer__nav-shop">
+          <a href="#" class="footer__nav-link link-1">Shop</a>
+        </li>
+        <li class="footer__nav-item footer__nav-delivery">
+          <a href="#" class="footer__nav-link link-2">Delivery</a>
+        </li>
+        <li class="footer__nav-item footer__nav-service footer__order-service">
+          <a href="#" class="footer__nav-link link-3">Service</a>
+        </li>
+        <li class="footer__nav-item footer__nav-sitemap">
+          <a href="#" class="footer__nav-link link-4">Sitemap</a>
+        </li>
+        <li
+          class="footer__nav-item footer__nav-contacts footer__order-contacts"
+        >
+          <a href="#" class="footer__nav-link link-5">Contacts</a>
+        </li>
+      </ul>
+      <ul class="footer__nav-social">
+        <li>
+          <a href="#" class="footer__nav-social-link fb"></a>
+        </li>
+        <li>
+          <a href="#" class="footer__nav-social-link inst"></a>
+        </li>
+        <li>
+          <a href="#" class="footer__nav-social-link pint"></a>
+        </li>
+        <li>
+          <a href="#" class="footer__nav-social-link tw"></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
